@@ -41,9 +41,4 @@ public class Executor {
         System.out.println("Sort by length of Emblem: ");
         familySortByLength.forEach((Integer, Family) -> System.out.println(Integer + " " + Family));
     }
-
-    }
-
-
-
-
+ }
