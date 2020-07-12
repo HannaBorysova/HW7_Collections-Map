@@ -1,11 +1,9 @@
 package main.java.com.hw7.map;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
-public class RemoveDuplicates {
+public class Duplicates {
+
     public static Map<Integer, Integer> createMap() {
         Map<Integer, Integer> map = new HashMap<>();
         map.put(1, 1);

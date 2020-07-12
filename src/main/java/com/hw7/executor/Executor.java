@@ -3,14 +3,14 @@ package main.java.com.hw7.executor;
 import main.java.com.hw7.family.Family;
 import main.java.com.hw7.family.FamilyComp;
 import main.java.com.hw7.family.FamilyCompByLength;
-import main.java.com.hw7.map.RemoveDuplicates;
+import main.java.com.hw7.map.Duplicates;
 
 import java.util.Map;
 import java.util.TreeMap;
 
 public class Executor {
     public static void start() {
-        RemoveDuplicates.removeDuplicates(RemoveDuplicates.createMap());
+        Duplicates.removeDuplicates(Duplicates.createMap());
         Executor.startFamily();
     }
 
@@ -41,9 +41,4 @@ public class Executor {
         System.out.println("Sort by length of Emblem: ");
         familySortByLength.forEach((Integer, Family) -> System.out.println(Integer + " " + Family));
     }
-
-    }
-
-
-
-
+}
